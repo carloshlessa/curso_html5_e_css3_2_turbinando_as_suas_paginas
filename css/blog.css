@@ -1,23 +1,14 @@
-.artigos {
-	border-bottom: 1px solid #ccc;
-	padding-bottom: 25px;
-	margin-bottom: 20px;
-}
-
-.links-artigos {
-	color: var(--magenta-joao);
-    background-color: #ccc;
-    display: inline-block;
-    width: 100%;
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
     text-align: center;
+    background-color: #E6E7E8;
 }
 
-.footer-artigos {
-	margin-top: 30px;
-}
-
-.footer-artigos a {
-	font-family: 'Crimson Text', serif;
-	text-decoration: underline;
-	color: var(--magenta-joao);
+.post-blog {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }

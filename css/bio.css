@@ -1,28 +1,18 @@
-.citacao-fiat, 
-.citacao-petrobras {
-	background-color: var(--verde-claro-joao);
-	padding: 16px;
-	border: 10px solid #c2ccca;
-	width: 250px;
-	margin: 20px 0;
-	font-style: italic;
+.citacao-bio {
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    padding: 20px;
+    margin: 20px 40px;
+    width: 250px;
+    box-sizing: border-box;
 }
 
-.citacao-fiat {
-	float: right;
-	margin-left: 40px;
+.petrobras {
+    float: left;
+    margin-left: 0;
 }
 
-.citacao-petrobras {
-	float: left;
-	margin-right: 40px;
-}
-
-cite {
-	float: right;
-}
-
-cite span {
-	display: block;
-	text-align: right;
+.fiat {
+    float: right;
+    margin-right: 0;
 }
