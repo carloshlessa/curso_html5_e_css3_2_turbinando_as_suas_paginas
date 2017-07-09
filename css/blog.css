@@ -1,0 +1,23 @@
+.artigos {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+}
+
+.links-artigos {
+	color: var(--magenta-joao);
+    background-color: #ccc;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-artigos {
+	margin-top: 30px;
+}
+
+.footer-artigos a {
+	font-family: 'Crimson Text', serif;
+	text-decoration: underline;
+	color: var(--magenta-joao);
+}
