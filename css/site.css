@@ -1,5 +1,5 @@
-html {
-    font-size: 125%; /* 16 x 1,25 = 20(px) OU 20/16 */
+:root {
+    font-size: 100%; /*16*/
 }
 
 body {
@@ -8,11 +8,15 @@ body {
     line-height: 1.5;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
-    width: 720px;
+    width: 45rem; /*720/16*/
     margin-left: auto;
     margin-right: auto;
-    padding: 1.5em 0;
+    padding: 1.88em 0; /*30/16*/
 }
 
 h1,
@@ -29,13 +33,13 @@ h1 {
     text-align: center;
     background-color: #851944;
     color: #FFF;
-    border-bottom: .5rem solid #000;
-    font-size: 3em; /* 60px */
-    padding: .5em; /* 30px */
+    font-size: 3.75rem; /*60/16*/
+    border-bottom: .133em solid #000; /*8/60*/
+    padding: .5em; /*30/60*/
 }
 
 .subtitulo-texto {
-    font-size: 1.5em; /* 20 x 1,5 = 30 */
+    font-size: 1.88rem; /*30/20*/
     clear: both;
 }
 
@@ -45,14 +49,32 @@ main a {
 
 main p {
     text-align: justify;
-    margin: 1rem 0;
+    font-size: 1.25rem; /*20/16*/
+    margin: 1em 0; /*20/20*/
 }
 
 .navegacao-site {
+    width: 14%;
+    float: right;
+    position: relative;
+    top: 308px;
     text-align: center;
     background-color: #3C1D3D;
     color: #F2FFFC;
-    padding: 1rem;
+    padding: 1em; /*16/16*/
+}
+
+.minha-foto,
+.navegacao-site {
+    border-left: 0.5em solid black; /*8/16*/
+    border-bottom: 0.5em solid black; /*8/16*/
+    box-sizing: border-box;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .navegacao-site a {
@@ -62,14 +84,17 @@ main p {
 }
 
 .navegacao-site h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1.25rem;
+    font-size: 1.88rem; /*30/16*/
+}
+
+.navegacao-site nav {
+    margin: .833em 0; /*25/30*/
 }
 
 .rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
-    padding: 1rem;
+    padding: 1.25em; /*20/16*/
     clear: both;
     position: fixed;
     bottom: 0;
@@ -91,8 +116,8 @@ em {
 }
 
 .icones-redes-sociais a {
-    width: 2rem;
-    height: 2rem;
+    width: 40px;
+    height: 40px;
     display: block;
     text-indent: -99999px;
 }
@@ -112,26 +137,5 @@ em {
 main {
     width: 86%;
     float: left;
-    padding-bottom: 4rem;
-}
-
-.minha-foto,
-.navegacao-site {
-    border-left: 0.5rem solid black;
-    border-bottom: 0.5rem solid black;
-    box-sizing: border-box;
-}
-
-.navegacao-site {
-    width: 14%;
-    float: right;
-    position: relative;
-    top: 15rem; /* 300/20 */
-}
-
-.minha-foto {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 15rem; /* 300/20 */
+    padding-bottom: 5em; /*80/16*/
 }
