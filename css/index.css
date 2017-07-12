@@ -1,0 +1,125 @@
+/* start Index Global Elements */
+
+.main-index {
+    width: 90rem; /*1440/16*/
+    margin: 0 auto;
+    padding: 1.88em 0 7.5em; /*30/16 120/16*/
+    float: none;
+}
+
+.container-sessoes-index {
+    padding: 4.38em 0; /*70/16*/
+}
+
+
+
+/* start Header */
+
+.titulo-principal h2 {
+    font-size: .333em; /*20/60*/
+}
+
+
+
+/* start Saudação */
+
+.saudacao-inicio {
+    color: #889;
+    font-size: 80px;
+}
+
+.saudacao p {
+    color: #99A;
+    line-height: 1;
+    font-size: 26px;
+}
+
+.saudacao strong {
+    color: #000;
+    font-size: 50px;
+}
+
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+
+.saudacao-ultima-linha em {
+    color: #851944;
+    font-size: 100px;
+}
+
+.botao-index {
+    background-color: #851944;
+    color: #FFF;
+    border: .25em solid black; /*4/16*/
+    padding: .625em 5em; /*10/16 80/16*/
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foto-home {
+    height: 200px;
+}
+
+
+
+
+
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+}
+
+.trabalhos h2 {
+    color: #FFF;
+}
+
+.trabalhos ul {
+    overflow: hidden;
+    border: 10px solid black;
+}
+
+.trabalhos li {
+    
+    width: 33.333%;
+}
+
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: 10px solid #851944;
+}
+
+.blog li a {
+    color: #FCF;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+footer a {
+    color: #F99;
+}
+
