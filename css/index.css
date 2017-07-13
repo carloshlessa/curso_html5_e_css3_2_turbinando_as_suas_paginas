@@ -7,7 +7,7 @@ main {
 .main-index {
     margin: 0 auto;
     float: none;
-    /*padding: 4.38em 0; */
+    padding-bottom: 12.125em;
 }
 
 .container-sessoes-index {
@@ -118,7 +118,7 @@ main {
 .blog {
     background-color: #999;
     color: #FFF;
-    border-bottom: .625em solid #851944; /*10px*/
+    border-bottom: .625em solid #851944;
 }
 
 .blog p {
@@ -127,39 +127,35 @@ main {
 
 .blog-listagem-home {
     text-align: left;
-    margin-top: 3.12em; /*50px*/
+    margin-top: 3.12em;
 }
 
 .blog-listagem-home li {
-    margin-bottom: .937em; /*15px*/
+    margin-bottom: .937em;
 }
 
 .blog-listagem-home a {
     color: #FCF;
-    font-size: 1.5rem; /*24px*/
+    font-size: 1.5rem;
 }
 
 
 
+/* start Rodapé*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    background-color: #000;
-    color: #FFF;
+.rodape-index {
+    padding: 2.5em 0;
 }
 
-footer a {
+.container-rodape-index {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.titulo-rodape-index {
+    font-size: 3.75em;
+}
+
+.rodape-index a {
     color: #F99;
 }
-
