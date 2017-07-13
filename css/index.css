@@ -1,19 +1,48 @@
 /* start Index Global Elements */
 
+main {
+    width: 100%;
+}
+
 .main-index {
-    width: 90rem; /*1440/16*/
     margin: 0 auto;
-    padding: 1.88em 0 7.5em; /*30/16 120/16*/
     float: none;
+    /*padding: 4.38em 0; */
 }
 
 .container-sessoes-index {
-    padding: 4.38em 0; /*70/16*/
+    text-align: center;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 3.12em 0 6.5em; /*50/16 120/16*/
+}
+
+.titulo-sessoes-index {
+    font-size: 3.75rem; /*60/16*/
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: .666em; /*40/60*/
+}
+
+.botao-index {
+    font-size: 1.15rem;
+    background-color: #851944;
+    color: #FFF;
+    border: .25em solid black;
+    padding: .625em 5em;
+    display: inline-block;
+    text-align: center;
+    margin-top: 3.12em;
 }
 
 
 
 /* start Header */
+
+.foto-home {
+    height: 200px;
+}
 
 .titulo-principal h2 {
     font-size: .333em; /*20/60*/
@@ -25,18 +54,18 @@
 
 .saudacao-inicio {
     color: #889;
-    font-size: 80px;
+    font-size: 5rem; /*80/16*/
 }
 
 .saudacao p {
     color: #99A;
     line-height: 1;
-    font-size: 26px;
+    font-size: 1.62rem; /*26/16*/
 }
 
 .saudacao strong {
     color: #000;
-    font-size: 50px;
+    font-size: 3.12rem; /*50/16*/
 }
 
 .saudacao-ultima-linha {
@@ -46,56 +75,30 @@
 
 .saudacao-ultima-linha em {
     color: #851944;
-    font-size: 100px;
-}
-
-.botao-index {
-    background-color: #851944;
-    color: #FFF;
-    border: .25em solid black; /*4/16*/
-    padding: .625em 5em; /*10/16 80/16*/
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
+    font-size: 6.65rem; /*100/16*/
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-.foto-home {
-    height: 200px;
-}
-
-
-
-
+/* start Trabalhos */
 
 .trabalhos {
     background-color: #3C1D3D;
-    border-top: 10px solid #000;
-    border-bottom: 10px solid #000;
-}
-
-.trabalhos h2 {
-    color: #FFF;
+    border-top: .625em solid #000; /*10/16*/
+    border-bottom: .625em solid #000; /*10/16*/
+    width: 100%;
 }
 
 .trabalhos ul {
-    overflow: hidden;
-    border: 10px solid black;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    border: .625em solid black; /*10/16*/
 }
 
 .trabalhos li {
-    
     width: 33.333%;
 }
 
@@ -104,15 +107,52 @@
     display: block;
 }
 
+
+
+/* start Blog */
+
+.titulo-blog {
+    padding-bottom: 0;
+}
+
 .blog {
     background-color: #999;
     color: #FFF;
-    border-bottom: 10px solid #851944;
+    border-bottom: .625em solid #851944; /*10px*/
 }
 
-.blog li a {
-    color: #FCF;
+.blog p {
+    margin-top: -0.5em;
 }
+
+.blog-listagem-home {
+    text-align: left;
+    margin-top: 3.12em; /*50px*/
+}
+
+.blog-listagem-home li {
+    margin-bottom: .937em; /*15px*/
+}
+
+.blog-listagem-home a {
+    color: #FCF;
+    font-size: 1.5rem; /*24px*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: #000;
