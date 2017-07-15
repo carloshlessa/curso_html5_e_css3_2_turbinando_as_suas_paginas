@@ -1,0 +1,66 @@
+header {
+    position: relative;
+}
+
+.palavra-home {
+    position: absolute;
+    top: 10%;
+    text-align: left;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+    color: rgba(255,255,255,.5);
+}
+
+.agilidade {
+    left: 35%;
+    top: 20%;
+}
+
+.responsivo {
+    top: 20%;
+    left: 15%;
+}
+
+.acessibilidade {
+    top: 3s0%;
+    left: 25%;
+}
+
+.codigo-limpo {
+    top: 55%;
+    left: 10%;
+}
+
+.css3 {
+    top: 45%;
+    left: 25%;
+}
+
+.boas-praticas {
+    top: 75%;
+    left: 15%;
+}
+
+.javascript {
+    right: 35%;
+}
+
+.eficiencia {
+    top: 55%;
+    right: 15%;
+}
+
+.design {
+    top: 30%;
+    right: 25%;
+}
+
+.html5 {
+    top: 45%;
+    right: 35%;
+}
+
+.otimizacoes {
+    top: 75%;
+    right: 20%;
+}

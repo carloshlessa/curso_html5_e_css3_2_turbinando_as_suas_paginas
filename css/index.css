@@ -42,6 +42,11 @@ main {
 
 .foto-home {
     height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .titulo-principal h2 {
@@ -127,13 +132,19 @@ main {
     right: 25em;
     top: 8.5em;
     width: 37em;
-    padding: 1em 1em 2em;
+    padding: 1em 1em 3em;
     background-color: #fff;
     color: #000;
 }
 
 .blog p {
     margin-top: -0.5em;
+}
+
+.blog-listagem-post-mais-recente {
+    background-color: #fff;
+    display: inline-block;
+    padding: .625em 5em .625em .625em;
 }
 
 .blog-listagem-home {
