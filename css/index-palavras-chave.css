@@ -11,9 +11,33 @@ header {
     color: rgba(255,255,255,.5);
 }
 
+.agilidade, .acessibilidade, .codigo-limpo {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.responsivo, .css3, .boas-praticas {
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.javascript, .design, .otimizacoes {
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.html5, .eficiencia {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
 .agilidade {
     left: 35%;
-    top: 20%;
+    top: 30%;
 }
 
 .responsivo {
@@ -22,18 +46,17 @@ header {
 }
 
 .acessibilidade {
-    top: 3s0%;
     left: 25%;
 }
 
 .codigo-limpo {
-    top: 55%;
-    left: 10%;
+    top: 45%;
+    left: 19%;
 }
 
 .css3 {
-    top: 45%;
-    left: 25%;
+    top: 60%;
+    left: 30%;
 }
 
 .boas-praticas {
@@ -62,5 +85,5 @@ header {
 
 .otimizacoes {
     top: 75%;
-    right: 20%;
+    right: 25%;
 }
