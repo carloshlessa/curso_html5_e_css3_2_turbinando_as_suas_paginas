@@ -1,17 +1,13 @@
-header {
-    position: relative;
-}
-
 .palavras-home {
-    -webkit-perspective: 6px;
-    -moz-perspective: 6px;
-    -ms-perspective: 6px;
-    perspective: 6px;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 .palavra-home {
@@ -23,51 +19,31 @@ header {
     color: #D5447E;
 }
 
-.agilidade, .acessibilidade, .codigo-limpo {
-    -webkit-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    transform: rotate(15deg);
-}
-
-.responsivo, .css3, .boas-praticas {
-    -webkit-transform: rotate(-15deg);
-    -ms-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-}
-
-.javascript, .design, .otimizacoes {
-    -webkit-transform: rotate(-15deg);
-    -ms-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-}
-
-.html5, .eficiencia {
-    -webkit-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    transform: rotate(15deg);
-}
-
 .agilidade {
     left: 39%;
     top: 43%;
     -webkit-transform: translate(-50%, -50%) rotate(9deg) translateZ(1px) scale(.15);
     -ms-transform: translate(-50%, -50%) rotate(9deg) translateZ(1px) scale(.15);
     transform: translate(-50%, -50%) rotate(9deg) translateZ(1px) scale(.15);
+    opacity: .7;
 }
 
 .responsivo {
-    top: 20%;
-    left: 11%;
-    -webkit-transform: scale(.15);
-    -ms-transform: scale(.15);
-    transform: scale(.15);
+    top: 74%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%) rotate(-16deg) translateZ(1px) scale(.15);
+    -ms-transform: translate(-50%, -50%) rotate(-16deg) translateZ(1px) scale(.15);
+    transform: translate(-50%, -50%) rotate(-16deg) translateZ(1px) scale(.15);
+    opacity: .7;
 }
 
 .acessibilidade {
-    left: 10%;
-    -webkit-transform: translate(-50%, -50%) rotate(8deg) translateZ(-1px) scale(.15);
-    -ms-transform: translate(-50%, -50%) rotate(8deg) translateZ(-1px) scale(.15);
-    transform: translate(-50%, -50%) rotate(8deg) translateZ(-1px) scale(.15);
+    left: 25%;
+    top: 25%;
+    -webkit-transform: translate(-50%, -50%) rotate(-12deg) translateZ(1px) scale(.15);
+    -ms-transform: translate(-50%, -50%) rotate(-12deg) translateZ(1px) scale(.15);
+    transform: translate(-50%, -50%) rotate(-12deg) translateZ(1px) scale(.15);
+    opacity: .7;
 }
 
 .codigo-limpo {
@@ -79,27 +55,29 @@ header {
 }
 
 .css3 {
-    top: 30%;
-    left: 10%;
-    -webkit-transform: scale(.15);
-    -ms-transform: scale(.15);
-    transform: scale(.15);
+    top: 20%;
+    left: 36%;
+    -webkit-transform: translate(-50%, -50%) rotate(-10deg) translateZ(1px) scale(.15);
+    -ms-transform: translate(-50%, -50%) rotate(-10deg) translateZ(1px) scale(.15);
+    transform: translate(-50%, -50%) rotate(-10deg) translateZ(1px) scale(.15);
+    opacity: .7;
 }
 
 .boas-praticas {
-    top: -22%;
-    left: 2%;
-    -webkit-transform: scale(.15);
-    -ms-transform: scale(.15);
-    transform: scale(.15);
+    top: 67%;
+    left: 38%;
+    -webkit-transform: translate(-50%, -50%) rotate(20deg) translateZ(1px) scale(.10);
+    -ms-transform: translate(-50%, -50%) rotate(20deg) translateZ(1px) scale(.10);
+    transform: translate(-50%, -50%) rotate(20deg) translateZ(1px) scale(.10);
+    opacity: 0.4;
 }
 
 .javascript {
     left: 62%;
     top: 15%;
-    -webkit-transform: translate(-50%, -50%) rotate(-10deg) translateZ(-1px) scale(.15);
-    -ms-transform: translate(-50%, -50%) rotate(-10deg) translateZ(-1px) scale(.15);
-    transform: translate(-50%, -50%) rotate(-10deg) translateZ(-1px) scale(.15);
+    -webkit-transform: translate(-50%, -50%) rotate(-10deg) translateZ(1px) scale(.15);
+    -ms-transform: translate(-50%, -50%) rotate(-10deg) translateZ(1px) scale(.15);
+    transform: translate(-50%, -50%) rotate(-10deg) translateZ(1px) scale(.15);
 }
 
 .eficiencia {
@@ -116,6 +94,7 @@ header {
     -webkit-transform: translate(-50%, -50%) rotate(10deg) translateZ(1px) scale(.15);
     -ms-transform: translate(-50%, -50%) rotate(10deg) translateZ(1px) scale(.15);
     transform: translate(-50%, -50%) rotate(10deg) translateZ(1px) scale(.15);
+    opacity: .4;
 }
 
 .html5 {
@@ -124,6 +103,7 @@ header {
     -webkit-transform: translate(-50%, -50%) rotate(15deg) translateZ(2px) scale(.15);
     -ms-transform: translate(-50%, -50%) rotate(15deg) translateZ(2px) scale(.15);
     transform: translate(-50%, -50%) rotate(15deg) translateZ(2px) scale(.15);
+    opacity: .7;
 }
 
 .otimizacoes {
@@ -132,4 +112,5 @@ header {
     -webkit-transform: translate(-50%, -50%) rotate(-12deg) translateZ(1px) scale(.15);
     -ms-transform: translate(-50%, -50%) rotate(-12deg) translateZ(1px) scale(.15);
     transform: translate(-50%, -50%) rotate(-12deg) translateZ(1px) scale(.15);
+    opacity: .4;
 }

@@ -1,7 +1,31 @@
 /* start Index Global Elements */
 
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    -webkit-perspective: 6px;
+    -moz-perspective: 6px;
+    -ms-perspective: 6px;
+    perspective: 6px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective-origin: 50% 160px;
+    -moz-perspective-origin: 50% 160px;
+    -ms-perspective-origin: 50% 160px;
+    perspective-origin: 50% 160px;
+}
+
 header {
-    /*overflow-x: hidden;*/
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 main {
@@ -11,7 +35,7 @@ main {
 .main-index {
     margin: 0 auto;
     float: none;
-    padding-bottom: 12.125em;
+    padding-bottom: 0;
 }
 
 .container-sessoes-index {
@@ -29,6 +53,10 @@ main {
     padding-bottom: .666em; /*40/60*/
 }
 
+.titulo-sessoes-index, .titulo-principal h1 {
+    text-shadow: .05em .083em #000;
+}
+
 .botao-index {
     font-size: 1.15rem;
     background-color: #851944;
@@ -38,6 +66,8 @@ main {
     display: inline-block;
     text-align: center;
     margin-top: 3.12em;
+    -webkit-box-shadow: 0 0 1.1em rgba(0,0,0,.4), inset 0 0 1.1em rgba(255,255,255,.4);
+    box-shadow: 0 0 1.1em rgba(0,0,0,.4), inset 0 0 1.1em rgba(255,255,255,.4);
 }
 
 
@@ -74,6 +104,8 @@ main {
     -ms-border-radius: 10% 50% / 50% 10%;
     -o-border-radius: 10% 50% / 50% 10%;
     border-radius: 10% 50% / 50% 10%;
+    -webkit-box-shadow: 0 0 .333em rgba(0,0,0,0.4);
+    box-shadow: 0 0 .333em rgba(0,0,0,0.4);
 }
 
 .titulo-principal h2 {
@@ -198,6 +230,9 @@ main {
 
 .rodape-index {
     padding: 2.5em 0;
+    position: static;
+    background-color: #000;
+    color: #fff;
 }
 
 .container-rodape-index {
