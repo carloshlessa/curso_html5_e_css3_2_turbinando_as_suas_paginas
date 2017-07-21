@@ -115,7 +115,6 @@ main {
 
 
 /* start Saudação */
-
 .saudacao-inicio {
     color: #889;
     font-size: 5rem; /*80/16*/
@@ -233,6 +232,7 @@ main {
     position: static;
     background-color: #000;
     color: #fff;
+    background-image: none;
 }
 
 .container-rodape-index {
