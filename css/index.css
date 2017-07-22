@@ -150,11 +150,24 @@ main {
 /* start Trabalhos */
 
 .trabalhos {
-    background-color: #3C1D3D;
     border-top: .625em solid #000; /*10/16*/
     border-bottom: .625em solid #000; /*10/16*/
     width: 100%;
+    background-color: #3C1D3D;
+    background-image: linear-gradient(to bottom right,
+                                      transparent,
+                                      transparent 14px,
+                                      rgba(0,0,0,.1) 14px,
+                                      rgba(0,0,0,.1) 15px,
+                                      transparent 15px,
+                                      transparent
+                                      ); /*01*/
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
+
+/* 01 - Até 14 pixels, cor transparente, troca subitamente para a cor semitransparente, usando-a por 1 pixel e volta subitamente para transparente */
 
 .trabalhos ul {
     display: -webkit-flex;
@@ -183,10 +196,21 @@ main {
 }
 
 .blog {
-    background-color: #999;
+    position: relative;
     color: #FFF;
     border-bottom: .625em solid #851944;
-    position: relative;
+    background-color: #999;
+    background-image: linear-gradient(to bottom left,
+                                      transparent,
+                                      transparent 14px,
+                                      rgba(255,255,255,.1) 14px,
+                                      rgba(255,255,255,.1) 15px,
+                                      transparent 15px,
+                                      transparent
+                                      );
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 
 .post-destaque-index {
