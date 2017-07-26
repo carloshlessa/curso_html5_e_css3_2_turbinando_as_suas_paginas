@@ -237,11 +237,11 @@ main {
     background-color: #F2FFFC;
     color: #000;
     padding: 1.5em;
-    /*escondendo os parágrafos*/
+    /* escondendo os parágrafos */
     display: none;
 }
 
-/*Selecionando o elemento com a classe inicio-post logo em seguida ao link com a pseudoclasse ativa*/
+/* Selecionando o elemento com a classe inicio-post logo em seguida ao link com a pseudoclasse ativa */
 .blog a:hover + .inicio-post, .blog a:focus + .inicio-post {
     display: block;
     background-color: #F2FFFC;
