@@ -213,39 +213,66 @@ main {
     background-attachment: fixed;
 }
 
-.post-destaque-index {
-    position: absolute;
-    right: 25em;
-    top: 8.5em;
-    width: 37em;
-    padding: 1em 1em 3em;
-    background-color: #fff;
-    color: #000;
+.blog small {
+    position: relative;
+    top: -1em;
 }
 
-.blog p {
-    margin-top: -0.5em;
-}
-
-.blog-listagem-post-mais-recente {
-    background-color: #fff;
-    display: inline-block;
-    padding: .625em 5em .625em .625em;
-}
-
-.blog-listagem-home {
+.blog li {
     text-align: left;
-    margin-top: 3.12em;
 }
 
-.blog-listagem-home li {
-    margin-bottom: .937em;
-}
-
-.blog-listagem-home a {
+.blog li a {
     color: #FCF;
-    font-size: 1.5rem;
+    padding: .5em;
+    display: inline-block;
 }
+
+.blog .inicio-post {
+    position: absolute;
+    top: 5em;
+    height: 8em;
+    left: 30%;
+    right: 4em;
+    background-color: #F2FFFC;
+    color: #000;
+    padding: 1.5em;
+    /*escondendo os parágrafos*/
+    display: none;
+}
+
+/*Selecionando o elemento com a classe inicio-post logo em seguida ao link com a pseudoclasse ativa*/
+.blog a:hover + .inicio-post, .blog a:focus + .inicio-post {
+    display: block;
+    background-color: #F2FFFC;
+}
+
+.blog a:hover, .blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

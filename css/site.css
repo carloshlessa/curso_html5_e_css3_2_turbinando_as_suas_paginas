@@ -46,6 +46,10 @@ main a {
     color: #851944;
 }
 
+main a:hover, main a:focus, footer a:hover, footer a:focus {
+    color: red;
+}
+
 main p {
     text-align: justify;
     font-size: 1.25rem; /*20/16*/
@@ -61,6 +65,10 @@ main p {
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 1em; /*16/16*/
+}
+
+.navegacao-site a:hover, .navegacao-site a:focus {
+    text-shadow: 0 0 1.25em pink;
 }
 
 .minha-foto,
