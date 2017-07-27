@@ -51,7 +51,7 @@ main a:hover, main a:focus, footer a:hover, footer a:focus {
 }
 
 main p {
-    text-align: justify;
+    text-align: left;
     font-size: 1.25rem; /*20/16*/
     margin: 1em 0; /*20/20*/
 }
