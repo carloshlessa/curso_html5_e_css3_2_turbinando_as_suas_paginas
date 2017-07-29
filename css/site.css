@@ -135,6 +135,32 @@ em {
     height: 40px;
     display: block;
     text-indent: -99999px;
+    position: relative;
+}
+
+/* Triângulo (balãozinho) no title dos ícones do Nav */
+.icones-redes-sociais a:hover::before, .icones-redes-sociais a:focus::before {
+    content: "";
+    width: 1em;
+    height: 1em;
+    background-color: black;
+    position: absolute;
+    bottom: -5px;
+    left: 12px;
+    transform: translateY(.5em) rotate(45deg);
+}
+
+/* Legendas / Title dos ícones do Nav */
+.icones-redes-sociais a:hover::after, .icones-redes-sociais a:focus::after {
+    content: attr(data-legenda);
+    background-color: black;
+    color: #fff;
+    text-indent: 0;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    width: 300%;
+    padding: 10px 20px;
 }
 
 .github {
