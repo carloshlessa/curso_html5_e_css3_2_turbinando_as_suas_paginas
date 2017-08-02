@@ -1,4 +1,5 @@
 /* Legendas dos grupos de campo e do campo "Mensagem" em negrito e espaçadas do grupo de campos anterior. */
+
 legend,
 label[for="mensagem"] {
     font-weight: bold;
@@ -9,4 +10,31 @@ label[for="mensagem"] {
    os rótulos dos campos que não são os assuntos */
 label[for] {
     display: block;
+}
+
+/* Os campos de texto devem ocupar a largura inteira da tela (exceto o campo para o assunto "Outro") */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    /* Força o navegador a usar a mesma fonte da página */
+    font-family: inherit;
+    /* Inclusive o tamanho dela */
+    font-size: 100%;
+    padding: .25em .5em;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+/* alguns ajustes para o campo "Outro": deixar ele na mesma linha dos outros assuntos */
+fieldset > fieldset {
+    display: inline;
+}
+
+/* deixar o rótulo dele inline de novo */
+label [for="outro"] {
+    display: inline;
+}
+
+/* deixar só esse campo sem ocupar a tela toda */
+input[name="outro-assunto"] {
+    width: auto;
 }
