@@ -12,6 +12,11 @@ label[for] {
     display: block;
 }
 
+/* Deixando apenas os radio buttons lado a lado */
+#radio-inputs label {
+    display: inline-block;
+}
+
 /* Os campos de texto devem ocupar a largura inteira da tela (exceto o campo para o assunto "Outro"), ter uma borda cinza clara, espaçamento interno e usar a mesma fonte do resto da página. */
 /* Selecionando apenas os campos de texto */
 input[type="text"],
@@ -40,6 +45,16 @@ label[for="outro"] {
 /* deixar só esse campo sem ocupar a tela toda */
 input[name="outro-assunto"] {
     width: auto;
+}
+
+/* Deixando o campo invisível */
+input[value="outro"] ~ input {
+    display: none;
+}
+
+/* Deixando o campo visível caso o radio dele seja clicado */
+input[value="outro"]:checked ~ input {
+    display: inline-block;
 }
 
 
@@ -74,4 +89,31 @@ button {
 button:hover,
 button:focus {
     background-color: #8C1D3D;
+}
+
+
+/* Inserindo os ícones */
+label[for="nome"] {
+    position: relative;
+}
+
+label[for="nome"]:after {
+    content: "";
+    background-image: url(../imagens/usuario.png);
+    -webkit-background-size: 50% 50%;
+    background-size: 50% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #666;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#nome {
+    width: calc(100% - 2em); /* 100% menos os 2em de largura do ícone */
+    position: relative;
+    left: 2em;
 }

@@ -1,5 +1,5 @@
 :root {
-    font-size: 100%; /*16*/
+    font-size: 100%;
 }
 
 body {
@@ -13,10 +13,10 @@ img {
 }
 
 .container {
-    width: 45rem; /*720/16*/
+    width: 45rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.88em 0; /*30/16*/
+    padding: 1.88em 0;
 }
 
 h1, h2,
@@ -31,15 +31,21 @@ h1 {
 .titulo-principal {
     text-align: center;
     color: #FFF;
-    font-size: 3.75rem; /*60/16*/
-    border-bottom: .133em solid #000; /*8/60*/
-    padding: .5em; /*30/60*/
+    font-size: 3.75rem;
+    border-bottom: .133em solid #000;
+    padding: .5em;
     background-image: linear-gradient(to top right, #3C1D3D, #851944 55%, #000);
 }
 
 .subtitulo-texto {
-    font-size: 1.88rem; /*30/20*/
+    font-size: 1.88rem;
     clear: both;
+}
+
+main {
+    width: calc(100% - 0.9 * 300px);
+    float: left;
+    padding-bottom: 5em;
 }
 
 main a {
@@ -52,19 +58,19 @@ main a:hover, main a:focus, footer a:hover, footer a:focus {
 
 main p {
     text-align: left;
-    font-size: 1.25rem; /*20/16*/
-    margin: 1em 0; /*20/20*/
+    font-size: 1.25rem;
+    margin: 1em 0;
 }
 
 .navegacao-site {
-    width: 14%;
+    width: calc(0.9 * 300px); /* 90% de 300px */
     float: right;
     position: relative;
     top: 308px;
     text-align: center;
     background-color: #3C1D3D;
     color: #F2FFFC;
-    padding: 1em; /*16/16*/
+    padding: 1em;
 }
 
 .navegacao-site a:hover, .navegacao-site a:focus {
@@ -73,8 +79,8 @@ main p {
 
 .minha-foto,
 .navegacao-site {
-    border-left: 0.5em solid black; /*8/16*/
-    border-bottom: 0.5em solid black; /*8/16*/
+    border-left: 0.5em solid black;
+    border-bottom: 0.5em solid black;
     box-sizing: border-box;
 }
 
@@ -91,16 +97,16 @@ main p {
 }
 
 .navegacao-site h1 {
-    font-size: 1.88rem; /*30/16*/
+    font-size: 1.88rem;
 }
 
 .navegacao-site nav {
-    margin: .833em 0; /*25/30*/
+    margin: .833em 0;
 }
 
 .rodape-pagina {
     color: #fff;
-    padding: 1.25em; /*20/16*/
+    padding: 1.25em;
     clear: both;
     position: fixed;
     bottom: 0;
@@ -173,10 +179,4 @@ em {
 
 .linkedin {
     background-image: url(../imagens/linkedin.png);
-}
-
-main {
-    width: 86%;
-    float: left;
-    padding-bottom: 5em; /*80/16*/
 }
