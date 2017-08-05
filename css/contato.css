@@ -94,13 +94,26 @@ button:focus {
 
 
 /* Inserindo os ícones */
-label[for="nome"] {
+.com-icone[for="nome"]::after {
+    background-image: url(../imagens/usuario.png);
+}
+
+.com-icone[for="email"]::after {
+    background-image: url(../imagens/email.png);
+}
+
+.com-icone {
     position: relative;
 }
 
-label[for="nome"]:after {
+.com-icone + input {
+    position: relative;
+    left: 2em;
+    width: calc(100% - 2em); /* 100% menos os 2em de largura do ícone */
+}
+
+.com-icone:after {
     content: "";
-    background-image: url(../imagens/usuario.png);
     -webkit-background-size: 50% 50%;
     background-size: 50% 50%;
     background-position: center;
@@ -109,12 +122,11 @@ label[for="nome"]:after {
     width: 2em;
     height: 2em;
     position: absolute;
-    top: 100%;
     left: 0;
+    top: 100%;
 }
 
-#nome {
-    width: calc(100% - 2em); /* 100% menos os 2em de largura do ícone */
+#nome, #email {
     position: relative;
     left: 2em;
 }

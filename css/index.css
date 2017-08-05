@@ -89,9 +89,9 @@ main {
     -ms-transform-origin: 0 0;
     -o-transform-origin: 0 0;
     transform-origin: 0 0;
-    -webkit-transform: translate(160px, -60px) rotate(45deg);
-    -ms-transform: translate(160px, -60px) rotate(45deg);
-    transform: translate(160px, -60px) rotate(45deg);
+    -webkit-transform: translate(calc(.707 * (4.5em - 100%) + 100%), calc(-.707 * 4.5em)) rotate(45deg);
+    -ms-transform: translate(calc(.707 * (4.5em - 100%) + 100%), calc(-.707 * 4.5em)) rotate(45deg);
+    transform: translate(calc(.707 * (4.5em - 100%) + 100%), calc(-.707 * 4.5em)) rotate(45deg);
 }
 
 
