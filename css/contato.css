@@ -80,6 +80,7 @@ button {
     color: white;
     font-size: 1.2em;
     /* Faz com que o botão apareça na direita */
+    display: block;
     margin-left: auto;
     margin-top: 1em;
     cursor: pointer;
