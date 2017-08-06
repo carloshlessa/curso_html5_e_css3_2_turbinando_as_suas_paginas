@@ -61,3 +61,41 @@ blockquote:nth-of-type(even) {
     float: left;
     margin-left: 0;
 }
+
+
+/* start Table */
+.habilidades {
+    border-collapse: separate;
+    border-spacing: .25em;
+    margin: 1em 0;
+}
+
+.habilidades th {
+    color: #fff;
+    font-weight: bold;
+}
+
+.habilidades th, td {
+    padding: 1em;
+}
+
+.habilidades thead th {
+    background-color: #3C1D3D;
+}
+
+.habilidades td {
+    background-color: #EEE;
+}
+
+.habilidades tbody th {
+    background-color: #851944;
+}
+
+.habilidades [colspan] {
+    text-align: center;
+    font-style: italic;
+}
+
+.habilidades [rowspan] {
+    vertical-align: middle;
+}
