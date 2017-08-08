@@ -8,6 +8,16 @@
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    -webkit-animation: aparece 2s;
+    animation: aparece 2s;
+}
+
+@keyframes aparece {
+
+    0% {
+        transform: scale(.1);
+    }
+
 }
 
 .palavra-home {
@@ -17,6 +27,15 @@
     font-family: 'Shadows Into Light', cursive;
     font-size: 400%;
     color: #D5447E;
+    animation: apareceFilho 2s;
+}
+
+@keyframes apareceFilho {
+
+    0% {
+        opacity: 0;
+    }
+
 }
 
 .agilidade {

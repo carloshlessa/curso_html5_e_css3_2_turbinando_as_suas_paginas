@@ -68,6 +68,14 @@ main {
     margin-top: 3.12em;
     -webkit-box-shadow: 0 0 1.1em rgba(0,0,0,.4), inset 0 0 1.1em rgba(255,255,255,.4);
     box-shadow: 0 0 1.1em rgba(0,0,0,.4), inset 0 0 1.1em rgba(255,255,255,.4);
+    transition: .5s;
+}
+
+.botao-index:hover, .botao-index:focus {
+    box-shadow: 0 0 1em #FA9;
+    color: #fff;
+    background-color: #C54974;
+    text-decoration: none;
 }
 
 
@@ -247,7 +255,8 @@ main {
     background-color: #F2FFFC;
 }
 
-.blog a:hover, .blog a:focus {
+/* Links Blog */
+.blog li a:hover, .blog li a:focus {
     background-color: #F2FFFC;
     color: #F26;
     width: 30%;
