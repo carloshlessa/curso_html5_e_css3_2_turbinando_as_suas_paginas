@@ -100,6 +100,9 @@ main {
     -webkit-transform: translate(calc(.707 * (4.5em - 100%) + 100%), calc(-.707 * 4.5em)) rotate(45deg);
     -ms-transform: translate(calc(.707 * (4.5em - 100%) + 100%), calc(-.707 * 4.5em)) rotate(45deg);
     transform: translate(calc(.707 * (4.5em - 100%) + 100%), calc(-.707 * 4.5em)) rotate(45deg);
+    animation: aparece .5s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
 }
 
 
@@ -151,6 +154,26 @@ main {
     -ms-transform: rotate(-10deg) skew(-10deg);
     transform: rotate(-10deg) skew(-10deg);
     display: inline-block;
+    position: relative;
+    animation: flutua 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes flutua {
+
+    0% {
+        top: -5px;
+    }
+
+    100% {
+        top: 5px;
+    }
+
+}
+
+.saudacao:hover em, .saudacao:focus em {
+    animation-play-state: paused;
 }
 
 
@@ -261,28 +284,6 @@ main {
     color: #F26;
     width: 30%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* start Rodapé*/
