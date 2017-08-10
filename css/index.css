@@ -210,7 +210,7 @@ main {
 }
 
 .trabalhos li {
-    width: 33.333%;
+    flex: 1;
 }
 
 .trabalhos img {
