@@ -207,11 +207,24 @@ main {
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    border: .625em solid black; /*10/16*/
 }
 
 .trabalhos li {
     flex: 1;
+    border: .625em solid black;
+}
+
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+}
+
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+
+.trabalhos li:last-child {
+    order: 3;
 }
 
 .trabalhos img {
