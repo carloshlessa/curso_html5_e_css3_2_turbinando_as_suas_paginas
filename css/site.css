@@ -6,6 +6,10 @@ body {
     font-family: "Crimson Text", "Times New Roman", serif;
     background-color: #F2FFFC;
     line-height: 1.5;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 img {
@@ -43,8 +47,7 @@ h1 {
 }
 
 main {
-    width: calc(100% - 0.9 * 300px);
-    float: left;
+    flex-grow: 1;
     padding-bottom: 5em;
 }
 
@@ -64,13 +67,10 @@ main p {
 
 .navegacao-site {
     width: calc(0.9 * 300px); /* 90% de 300px */
-    float: right;
-    position: relative;
-    top: 308px;
     text-align: center;
     background-color: #3C1D3D;
     color: #F2FFFC;
-    padding: 1em;
+    padding-top: calc(300px + 1em);
 }
 
 .navegacao-site a:hover, .navegacao-site a:focus {
@@ -79,8 +79,7 @@ main p {
 
 .minha-foto,
 .navegacao-site {
-    border-left: 0.5em solid black;
-    border-bottom: 0.5em solid black;
+    border-left: .5em solid black;
     box-sizing: border-box;
 }
 
@@ -88,6 +87,7 @@ main p {
     position: absolute;
     top: 0;
     right: 0;
+    border-bottom: .5em solid black;
 }
 
 .navegacao-site a {

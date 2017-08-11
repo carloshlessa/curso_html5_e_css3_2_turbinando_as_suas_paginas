@@ -6,6 +6,7 @@ html, body {
 }
 
 body {
+    display: block;
     -webkit-perspective: 6px;
     -moz-perspective: 6px;
     -ms-perspective: 6px;
